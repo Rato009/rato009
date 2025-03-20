@@ -97,7 +97,6 @@ img{
     background-blend-mode: overlay;
 
     /*background-color: #0bd;*/
-    
     min-height: 100vh;
 }
 
@@ -109,9 +108,6 @@ img{
 /*メインページの配置*/
 #second {
     background-image: url(../images/mainback.png);
-    
-
-    
 }
 
 .home-history {
@@ -138,7 +134,7 @@ img{
 
 .home-history aside3 {
     display: flex;
-    align-items: center;   
+    align-items: center;
     padding-left: 15%;
     padding-top: 20px;
     padding-bottom: 30px;
@@ -164,7 +160,6 @@ img{
     height: 270px;
     margin-bottom: 40px;
     background-blend-mode: overlay;
-    
 }
 
 #news .page-title{
@@ -263,7 +258,7 @@ aside{
 
 .sub-menu {
     margin-bottom: 60px;
-    list-style: none;    
+    list-style: none;
 }
 
 .sub-menu li {
@@ -304,7 +299,6 @@ footer p {
     h1 {
         color: #0bd;
     }
-   
 }
 
 
@@ -314,7 +308,7 @@ footer p {
 @media screen and (max-width: 1000px) {
 
     .page-title {
-        font-size: 80%;
+        font-size: 880%;
     }
 
     .home-content p {
@@ -334,7 +328,6 @@ footer p {
     .main-nav {
         font-size: 300%;
         margin-top: 10px;
-        
     }
     .logo{
         width: 65%;
@@ -351,7 +344,7 @@ footer p {
         align-items: center;
     }
     .page-header.wrapper{
-        padding-top: 100px;
+        padding-top: 10px;
     }
 
     /*  HOME  */
@@ -365,6 +358,13 @@ footer p {
 
 
     /*  NEWS  */
+    #news .page-title {
+        font-size: 400%;
+    }
+    #news .main-nav {
+        font-size: 150%;
+        margin-top: -25px;
+    }
     .news-contents {
         flex-direction: column;
     }
