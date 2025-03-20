@@ -314,20 +314,34 @@ footer p {
 @media screen and (max-width: 1000px) {
 
     .page-title {
-        font-size: 2.5rem;
+        font-size: 880%;
     }
+
+    .home-content p {
+        font-size: 186%;
+        margin-bottom: 70px;
+
+    }
+
+    .button {
+        font-size: 250%;
+    }
+
+
+
+
     /*  HEADER  */
     .main-nav {
-        font-size: 1rem;
+        font-size: 300%;
         margin-top: 10px;
         
     }
     .logo{
-        width: 80%;
+        width: 65%;
         margin-top: 5%;
     }
     .wrapper{
-        height: 40%;
+        height: 35%;
     }
     .main-nav li {
         margin: 0 20px;
@@ -348,6 +362,7 @@ footer p {
     .home-content wrapper {
         margin-top: 2000px;
     }
+
 
     /*  NEWS  */
     .news-contents {
