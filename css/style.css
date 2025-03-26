@@ -360,11 +360,17 @@ footer p {
     /*  NEWS  */
     #news .page-title {
         font-size: 400%;
+        color: #ffffff;
     }
     #news .main-nav {
+        color: #ffffff;
         font-size: 150%;
         margin-top: -25px;
     }
+    #news .main-nav a {
+    color: #ffffff;
+    }
+
     .news-contents {
         flex-direction: column;
     }
@@ -376,6 +382,11 @@ footer p {
     #news .page-title {
         margin-top: 30px;
     }
+
+    .ad {
+        display: none;
+    }
+
     aside {
         margin-top: 60px;
     }
